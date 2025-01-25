@@ -26,7 +26,6 @@
 /*********** Start Nav  */
 
 nav {
-    padding: 10px !important;
     background-color: #2C3E50;
     font-family: Monserrat;
     font-weight: 700;
@@ -151,12 +150,21 @@ header h2 {
 
 /************* Start portfolio ************/
 
+.portfol {
+    margin-top: 120px !important;
+}
 
 .portfolio .title {
     color: #2C3E50;
     text-align: center;
     margin-top: 100px;
 
+}
+
+.line {
+    margin-inline: 7px;
+    width: 50px;
+    height: 3px;
 }
 
 .portfolio .title h2 {

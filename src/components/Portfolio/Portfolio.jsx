@@ -9,15 +9,17 @@ import img6 from "../../assets/images/cake.png";
 export default function Portfolio() {
   return (
     <>
-      <div className="bg-white mt-5">
-        <h3 className=" h1 text-uppercase pt-3">portfolio component</h3>
+      <div className="portfol bg-white mt-5">
+        <h3 className=" h1 text-center text-uppercase pt-3">
+          portfolio component
+        </h3>
         <div className=" d-flex justify-content-center align-items-center">
-          <span className="line"></span>
-          <i className="fas fa-star  "></i>
-          <span className="line"></span>
+          <span className="line bg-dark"></span>
+          <i className="fas fa-star"></i>
+          <span className="line bg-dark"></span>
         </div>
         <div className="container w-75 mb-5 ">
-          <div className="row g-4">
+          <div className="row mt-3 g-4">
             <div className="col-md-4">
               <div className="picture position-relative">
                 <picture>
