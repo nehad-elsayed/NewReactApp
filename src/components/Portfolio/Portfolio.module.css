@@ -1,0 +1,14 @@
+.image {
+    cursor: pointer;
+}
+
+.icon {
+    height: 100%;
+    background-color: #1ABc9C;
+    opacity: 0;
+}
+
+.icon:hover {
+    opacity: 1;
+    transition: all 1s;
+}
